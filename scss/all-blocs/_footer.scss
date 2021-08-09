@@ -35,3 +35,16 @@ footer{
 .footer-links__item + .footer-links__item {
     margin-left: 24px;
 }
+@media only screen and (max-width: 602px){
+    .footer{
+        display: block;
+        width: 327px;
+        
+    }
+    .footer-nav{
+        display: block;
+    }
+    .footer-containe{
+        display: block;
+    }
+}

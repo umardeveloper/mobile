@@ -81,3 +81,23 @@
     padding: 0;
     color: #333D4B;
 }
+@media only screen and (max-width: 602px){
+    .work{
+        margin: 0 auto;
+    }
+    .work__heading{
+        width: 327px;
+        margin-left: 150px;
+    }
+    .work-list::before{
+        display: none;
+    }
+    .work-container{
+        text-align: center;
+    }
+    .work-list__item{
+        margin-bottom: 56px;
+        
+    }
+
+}

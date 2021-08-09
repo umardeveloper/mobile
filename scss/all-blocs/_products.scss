@@ -1,7 +1,7 @@
 .products {
     padding: 200px 0;
     background-image: url("../images/products-bg-2.png");
-    background-size: 1111px 196px;
+    background-size: 375px 72px;
     background-repeat: no-repeat;
     background-position: left calc(50% + 0px) top 80px;
 }
@@ -36,4 +36,21 @@
     padding: 0;
     color: #333D4B;
     text-align: center;
+}
+
+@media only screen and (max-width: 602px){
+    .product {
+        display: inline-block;
+        text-align: center;
+        // margin-left: 20px;
+        background-size: 375px 72px;
+        width: 375px;
+        height: 72px;
+        padding-left: 140px;
+        margin-top: 13px;
+    }
+    .product__item{
+        margin-bottom: 48px;
+    }
+    
 }

@@ -7,6 +7,7 @@
     border-radius: 5px;
 }
 
+
 .hero-info {
     width: 500px;
 }
@@ -53,4 +54,54 @@
 .section-btn:hover {
     background-color: #66D2CF;
     transition: background-color 0.5s ease;
+}
+
+
+
+@media only screen and (max-width: 602px){
+    .hero-container {
+        width: 590px;
+        height: 500px;
+        background-size:  590px 300px;
+    }
+    .hero-info{
+        width: 279px;
+        
+    }
+    .hero__heading{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Fraunces' 9pt;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        width: 279px;
+        text-align: center;
+        margin-top: -76px;
+        margin-left: 97px;
+        color: #FEFCF7;
+    }
+    .hero__desc{
+        text-align: center;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        
+        text-align: center;
+        
+        color: #FEFCF7;
+        
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    .section-btn{
+        margin-top: -61px;
+        display: inline-block;
+        margin-left: 140px;
+        margin-bottom: 10px;
+    }
 }

@@ -3,6 +3,6 @@ const elHeader = document.querySelector('.header');
 
 
 
-elHamburgerBtn.addEventListener('clic', (evt) => {
-    elHeader.classList.toggle('.header-open');
+elHamburgerBtn.addEventListener('click', (evt) => {
+    elHeader.classList.toggle('header-open');
 });

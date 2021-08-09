@@ -92,3 +92,37 @@
 .about-list__desc {
     color: #FEFCF7;
 }
+@media only screen and (max-width: 602px){
+    .about-container::before{
+        width: 427px;
+        height: 902px;
+        margin-left: 48px;
+        
+    }
+   .about-top{
+       width: 279px;
+       text-align: center;
+   }
+
+   .about__heading{
+       font-size: 28px;
+       margin-left: 20px;
+   }
+   .about__desc{
+       width: 260px;
+       font-size: 15px;
+
+   }
+
+   .about-list{
+       display: block;
+      
+   }
+   .about-list__item{
+       width: 279px;
+       margin-bottom: 24px;
+       margin-left: 100px;
+   }
+
+
+}
