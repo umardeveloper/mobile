@@ -1,0 +1,94 @@
+.about-container {
+    position: relative;
+    padding-top: 110px;
+}
+
+.about-container::before {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    content: "";
+    display: block;
+    width: 1280px;
+    height: 577px;
+    background-color: #2C343E;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+}
+
+.about-top {
+   width: 570px;
+   margin: 0 auto;
+}
+
+.about__heading {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.about__desc {
+    width: 570px;
+    margin-bottom: 86px;
+    text-align: center;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.about-list__item {
+    width: 350px;
+    padding: 72px 48px 48px 48px;
+    background-color: #0E8784;
+    border-radius: 8px;
+}
+
+.about-list__item:nth-child(1)::before {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+    background-image: url("../images/cofe.svg");
+    background-repeat: no-repeat;
+}
+
+.about-list__item:nth-child(2)::before {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+    background-image: url("../images/box-priz.svg");
+    background-repeat: no-repeat;
+}
+
+.about-list__item:nth-child(3)::before {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+    background-image: url("../images/van.svg");
+    background-repeat: no-repeat;
+}
+
+.about-list__heading {
+    color: #FEFCF7;
+}
+
+.about-list__desc {
+    color: #FEFCF7;
+}
